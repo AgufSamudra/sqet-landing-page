@@ -9,7 +9,7 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="bg-[#083f73] text-white">
-        <div className="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-3 text-xs font-medium sm:flex-row sm:items-center sm:justify-between sm:px-5">
+        <div className="mx-auto flex max-w-7xl flex-col gap-2 px-6 py-3 text-xs font-medium sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-10 xl:px-12">
           <div className="flex flex-wrap gap-x-4 gap-y-2 sm:gap-x-5">
             <span>Training and Consulting</span>
             <span className="hidden min-[420px]:inline">Bogor, Jawa Barat</span>
@@ -28,7 +28,7 @@ export function SiteHeader() {
         </div>
       </div>
 
-      <div className="mx-auto flex min-h-20 max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-5">
+      <div className="mx-auto flex min-h-20 max-w-7xl items-center justify-between gap-4 px-6 py-4 sm:px-8 lg:px-10 xl:px-12">
         <Link href="/" className="shrink-0" aria-label="SQET home">
           <Image
             src="/logo-web.png"
@@ -104,7 +104,7 @@ export function SiteHeader() {
       </div>
 
       <div className="border-t border-slate-100 bg-white lg:hidden">
-        <nav className="mx-auto flex max-w-7xl items-center gap-1 overflow-x-auto px-4 py-3 text-sm font-bold text-slate-700 sm:px-5">
+        <nav className="mx-auto flex max-w-7xl items-center gap-1 overflow-x-auto px-6 py-3 text-sm font-bold text-slate-700 sm:px-8 lg:px-10">
           {primaryNavItems.map((item) => (
             <Link
               key={item.href}

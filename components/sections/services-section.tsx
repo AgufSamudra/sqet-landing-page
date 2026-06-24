@@ -4,7 +4,7 @@ import { services } from "@/lib/site";
 export function ServicesSection() {
   return (
     <section id="tentang" className="bg-white py-24">
-      <div className="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+      <div className="section-container grid gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
         <div className="relative">
           <div className="absolute -left-8 top-10 size-44 rounded-full bg-[#0f8fa5]/16 blur-3xl" />
           <div className="absolute -right-8 bottom-8 size-52 rounded-full bg-[#f59e0b]/12 blur-3xl" />

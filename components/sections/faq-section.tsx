@@ -3,7 +3,7 @@ import { faqs } from "@/lib/site";
 export function FaqSection() {
   return (
     <section className="bg-[linear-gradient(135deg,#f7fbfc_0%,#ffffff_48%,#eaf7fb_100%)] py-24">
-      <div className="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
+      <div className="section-container grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
         <div>
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#0f8fa5]">
             FAQ

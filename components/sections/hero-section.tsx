@@ -8,7 +8,7 @@ export function HeroSection() {
   return (
     <section className="relative overflow-visible bg-[#eaf7fb] pb-20 lg:pb-32">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_15%_20%,#ffffff_0,#ffffff_18%,transparent_38%),linear-gradient(135deg,#eaf7fb_0%,#d9f0f4_45%,#ffffff_100%)]" />
-      <div className="relative mx-auto grid min-h-[calc(100vh-8.75rem)] max-w-7xl gap-12 px-5 py-16 lg:grid-cols-[1fr_0.9fr] lg:items-center lg:py-20">
+      <div className="section-container relative grid min-h-[calc(100vh-8.75rem)] gap-12 py-16 lg:grid-cols-[1fr_0.9fr] lg:items-center lg:py-20">
         <div>
           <p className="glass-panel inline-flex rounded-md px-4 py-2 text-sm font-bold uppercase tracking-[0.18em] text-[#0f8fa5]">
             {primarySlide.eyebrow}
@@ -16,7 +16,7 @@ export function HeroSection() {
           <h1 className="mt-6 max-w-3xl text-5xl font-black leading-[1.02] tracking-tight text-[#083f73] sm:text-6xl lg:text-7xl">
             <span className="block">Pusat Pelatihan</span>
             <span className="block text-[#f59e0b] drop-shadow-sm">
-              HSE & Rumah Sakit
+              QHSE & Rumah Sakit
             </span>
             <span className="block">Terbaik di Indonesia</span>
           </h1>
@@ -71,7 +71,7 @@ export function HeroSection() {
         </div>
       </div>
 
-      <dl className="relative z-20 mx-auto -mb-24 mt-2 grid max-w-7xl grid-cols-1 gap-4 px-5 sm:grid-cols-2 lg:absolute lg:inset-x-0 lg:bottom-0 lg:mt-0 lg:mb-0 lg:translate-y-1/2 lg:grid-cols-5">
+      <dl className="section-container relative z-20 -mb-24 mt-2 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:absolute lg:inset-x-0 lg:bottom-0 lg:mt-0 lg:mb-0 lg:translate-y-1/2 lg:grid-cols-5">
         {stats.map((stat) => (
           <div
             key={stat.value}

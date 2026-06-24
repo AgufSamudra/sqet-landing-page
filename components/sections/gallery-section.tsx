@@ -10,7 +10,7 @@ export function GallerySection() {
       <div className="absolute left-[-6rem] top-24 h-72 w-72 rounded-full bg-[#0f8fa5]/15 blur-3xl" />
       <div className="absolute bottom-10 right-[-5rem] h-80 w-80 rounded-full bg-[#f59e0b]/20 blur-3xl" />
 
-      <div className="relative mx-auto max-w-7xl px-5">
+      <div className="section-container relative">
         <div className="glass-panel rounded-[2rem] p-6 md:p-10">
           <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
             <div className="max-w-2xl">

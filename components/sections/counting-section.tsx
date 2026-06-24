@@ -59,8 +59,8 @@ function AnimatedNumber({ value }: { value: string }) {
 
 export function CountingSection() {
   return (
-    <section className="bg-white px-5 pb-16 pt-44 sm:pt-48 lg:pt-56">
-      <div className="mx-auto max-w-7xl text-center">
+    <section className="bg-white pb-16 pt-44 sm:pt-48 lg:pt-56">
+      <div className="section-container text-center">
         <p className="text-lg font-black tracking-tight text-[#031b45] sm:text-xl lg:text-2xl">
           Tingkatkan Standar Kualitas Perusahaan Anda!
         </p>

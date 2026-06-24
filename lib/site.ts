@@ -379,3 +379,18 @@ export const testimonials = [
       "Pendekatan SQET membantu tim kami memahami standar dengan lebih terstruktur dan siap diterapkan.",
   },
 ];
+
+export const trainers = [
+  {
+    name: "Dr. Arif Hidayat, M.Si.",
+    description: "Praktisi quality dan laboratorium dengan pengalaman audit dan pendampingan ISO.",
+  },
+  {
+    name: "Ir. Maya Lestari, M.Kes.",
+    description: "Trainer QHSE dan food safety untuk industri manufaktur dan layanan kesehatan.",
+  },
+  {
+    name: "Budi Santoso, S.T., M.M.",
+    description: "Konsultan produktivitas, manajemen risiko, dan peningkatan proses operasional.",
+  },
+];

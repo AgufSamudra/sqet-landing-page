@@ -6,7 +6,7 @@ export function TestimonialsSection() {
       <div className="absolute left-[-5rem] top-[-5rem] size-80 rounded-full bg-[#0f8fa5]/24 blur-3xl" />
       <div className="absolute bottom-[-6rem] right-[-4rem] size-96 rounded-full bg-[#f59e0b]/18 blur-3xl" />
 
-      <div className="relative mx-auto max-w-7xl px-5">
+      <div className="section-container relative">
         <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#ffb703]">

@@ -6,7 +6,7 @@ export function PartnersSection() {
       <div className="absolute left-[-5rem] top-20 size-72 rounded-full bg-[#0f8fa5]/10 blur-3xl" />
       <div className="absolute right-[-6rem] bottom-10 size-80 rounded-full bg-[#f59e0b]/10 blur-3xl" />
 
-      <div className="relative mx-auto max-w-7xl px-5">
+      <div className="section-container relative">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#0f8fa5]">
             Partner Kami

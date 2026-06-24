@@ -96,7 +96,7 @@ export function ProcessSection() {
 
   return (
     <section id="jadwal" className="bg-white py-24">
-      <div className="mx-auto max-w-7xl px-5">
+      <div className="section-container">
         <div className="grid gap-6 lg:grid-cols-[1fr_24rem] lg:items-end">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#0f8fa5]">

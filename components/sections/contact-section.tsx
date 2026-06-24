@@ -4,7 +4,7 @@ import { siteConfig } from "@/lib/site";
 export function ContactSection() {
   return (
     <section id="kontak" className="bg-white py-24">
-      <div className="mx-auto max-w-7xl px-5">
+      <div className="section-container">
         <div className="overflow-hidden rounded-[2rem] bg-[#0f8fa5]/95 shadow-2xl shadow-[#0f8fa5]/20 backdrop-blur">
           <div className="grid gap-0 lg:grid-cols-[1.05fr_0.95fr]">
             <div className="p-8 text-white md:p-12">

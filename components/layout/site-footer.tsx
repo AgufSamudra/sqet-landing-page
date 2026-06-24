@@ -5,7 +5,7 @@ import { navItems, siteConfig, trainingCategories } from "@/lib/site";
 export function SiteFooter() {
   return (
     <footer className="bg-[#062f57] text-white">
-      <div className="mx-auto grid max-w-7xl gap-10 px-5 py-14 md:grid-cols-[1.2fr_0.8fr_1fr]">
+      <div className="section-container grid gap-10 py-14 md:grid-cols-[1.2fr_0.8fr_1fr]">
         <div>
           <Image
             src="/logo-web.png"
@@ -56,7 +56,7 @@ export function SiteFooter() {
       </div>
 
       <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-7xl flex-wrap gap-4 px-5 py-5 text-xs text-blue-100">
+        <div className="section-container flex flex-wrap gap-4 py-5 text-xs text-blue-100">
           {navItems.map((item) => (
             <Link
               key={item.href}
