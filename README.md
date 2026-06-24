@@ -1,31 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SQET Landing Page
+
+Next.js App Router landing page starter untuk SQET dengan struktur SEO dasar.
+
+## Struktur utama
+
+- `app/layout.tsx` - metadata global, Open Graph, Twitter card, dan root layout.
+- `app/page.tsx` - komposisi section homepage.
+- `app/robots.ts` - robots.txt otomatis.
+- `app/sitemap.ts` - sitemap.xml otomatis.
+- `lib/site.ts` - konfigurasi brand, SEO, navigasi, layanan, dan konten section.
+- `components/layout` - header dan footer.
+- `components/sections` - section landing page yang bisa dikembangkan.
 
 ## Getting Started
 
-First, run the development server:
+Jalankan development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Setup sebelum production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Ganti `NEXT_PUBLIC_SITE_URL` dengan domain final.
+2. Update `name`, `title`, `description`, `keywords`, dan `email` di `lib/site.ts`.
+3. Ganti copy layanan dan CTA sesuai positioning bisnis final.
+4. Tambahkan gambar Open Graph final sebelum launch.
 
-## Learn More
+Contoh `.env.local`:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+NEXT_PUBLIC_SITE_URL=https://sqet.co.id
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Scripts
+
+```bash
+pnpm dev
+pnpm build
+pnpm lint
+```
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
